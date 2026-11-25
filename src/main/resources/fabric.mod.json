@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "altherra-client",
+  "version": "${version}",
+  "name": "Altherra Client",
+  "description": "Мод для сервера Altherra: показує серверу список модів (перевірка збірки), зберігає ключ входу після підтвердження в Discord, сам перепідключається після вильоту.",
+  "authors": [
+    "Altherra"
+  ],
+  "contact": {
+    "homepage": "https://altherra.com.ua",
+    "sources": "https://github.com/b3nzobash/altherra-client",
+    "issues": "https://github.com/b3nzobash/altherra-client/issues"
+  },
+  "license": "GPL-3.0-only",
+  "icon": "assets/altherra-client/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "ua.altherra.client.AltherraClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.20.0",
+    "minecraft": "~26.3",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
